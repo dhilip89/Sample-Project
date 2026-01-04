@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Example.Product.Core/Example.Product.Core.csproj" Id="0327a37f-0c09-4d9c-b682-87614c54e629" />
+  <Project Path="Example.Product.Infrastructure/Example.Product.Infrastructure.csproj" Id="231403b9-9a06-4810-a475-c3f3ff1a757c" />
+  <Project Path="Example.Product.Presentation.ConsoleApp/Example.Product.Presentation.ConsoleApp.csproj" Id="6297f23c-7071-4f52-8b3b-06de0fd894a4" />
+  <Project Path="Example.Product.Service.WebApi/Example.Product.Service.WebApi.csproj" Id="06cd8c3c-f3ba-47d7-bb07-c88417535c70" />
+</Solution>
