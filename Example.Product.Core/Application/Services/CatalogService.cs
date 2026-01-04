@@ -69,6 +69,10 @@ namespace Example.Product.Core.Application.Services
         public async Task ProcessAsync(RemoveItem command)
         {
             await _itemRepository.RemoveAsync(command.Id);
+
+            var itemRemovedEvent = new ItemRemoved() { Id = command.Id };
+
+            await _notificationService.NotifyAsync(itemRemovedEvent);
         }
 
         public async Task<AllItems> QueryAsync(GetAllItems query)
